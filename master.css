@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container{
+    position: relative;
+    height: 520px;
+    width: 370px;
+    left: 37vw;
+    top: 10vw;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px black solid;
+    box-shadow: 10px 10px 0px black;
+}
+
+.photo , .type , .date , .title , .info , .avater , .name {
+    position: absolute;
+}
+
+.photo {
+    height: 200px;
+    right: 4.5%;
+    top: 20px;
+    border-radius: 15px;
+}
+
+.type {
+ left: 30px;
+ top: 48%;
+ text-align: center;
+ width: 80%;
+ font-size: 13px;
+ height: 30px;
+ padding: 8px;
+ border-radius: 5px;
+ background-color: hsl(47, 88%, 63%);
+}
+
+.date {
+    top: 58%;
+    left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.title {
+    position:absolute;
+    top: 65%;
+    font-size: 21px;
+    left: 28px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.info {
+   top: 72%;
+   left: 28px;
+   line-height: 1.6;
+   max-width: 80%;
+   font-size: 14px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.492);
+}
+
+.avater{
+    height: 40px;
+    bottom: 4%;
+    left: 28px;
+    border-radius: 20px;
+}
+
+.name {
+    bottom: 6%;
+    left: 22%;
+    font-size: 15px;
+}
